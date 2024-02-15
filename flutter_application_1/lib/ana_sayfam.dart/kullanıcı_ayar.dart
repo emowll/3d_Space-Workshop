@@ -18,23 +18,23 @@ class _MyHomePageState extends State<UlasimAraclari> {
           children: [
             ElevatedButton(
               onPressed: (){
-                launch('tel:+91 88888888888');
-              },child: Text("Make A Call"),
+                launch('tel:+905555555555');
+              },child: Text("Beni Ara"),
             ),
             ElevatedButton(
               onPressed: (){
-                launch('sms:+91888888888?body=Hi Welcome to Proto Coders Point');
-              },child: Text("Send A SMS"),
+                launch('sms:+905555555555?body=Merhaba Emirhan');
+              },child: Text("Sms gönder"),
             ),
             ElevatedButton(
               onPressed: (){
-                launch('mailto:rajatrrpalankar@gmail.com?subject=This is Subject Title&body=This is Body of Email');
-              },child: Text("Send A Email"),
+                launch('mailto:emirhnshn0@gmail.com?subject=Bşalığı Giriniz&body=Açıklama Giriniz');
+              },child: Text("Email gönder"),
             ),
             ElevatedButton(
               onPressed: (){
-                launch('https://protocoderspoint.com/');
-              },child: Text("Open a URL"),
+                launch('https://www.instagram.com/emirhnshn0/');
+              },child: Text("Instagram ile ulaş"),
             ),
           ],
         ),
